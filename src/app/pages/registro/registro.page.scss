@@ -1,0 +1,46 @@
+ion-toolbar {
+    --background: transparent;
+    --border-color: transparent;
+}
+
+.titulo {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.titulos {
+    text-align: center;
+    font-size: 15px;
+}
+
+.radio-fuente {
+    font-size: 15px;
+}
+
+.grid-card {
+    padding-top: 0px;
+    padding-bottom: 5px;
+
+    align-items: center;
+}
+
+.titulo-input {
+    font-size: 16px;
+    font-style: bold;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.texto {
+    color: white;
+    background-color: gray;
+}
+
+.ion-fab-registro {
+    --border-radius: 50px;
+    --border-style: solid;
+    --border-width: 0.5px;
+    margin-top: 20px;
+    --box-shadow: none;
+}

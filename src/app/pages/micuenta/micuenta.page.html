@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="titulo">Mi Banco</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-title class="titulo">Le presentamos la información<br>de su cuenta bancaria</ion-title>
+  <div class="centrado">
+    <p>Ingresa tipo cuenta</p>
+  <ion-card class="tarjeta-cuenta-ahorro" [routerLink]="['/movimiento']">
+    <ion-card-content class="contenido"></ion-card-content>
+    <ion-card-header>
+      <ion-card-title class="text-cuenta">Cuenta Ahorros</ion-card-title>
+      <ion-card-subtitle class="text-cuenta posicion">Mi Banco</ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+  <div class="centrados">
+  <ion-card class="tarjeta-cuenta-corriente" [routerLink]="['/movimiento-ctacorriente']">
+    <ion-card-content class="contenido"></ion-card-content>
+    <ion-card-header>
+      <ion-card-title class="text-cuenta">Cuenta Corriente</ion-card-title>
+      <ion-card-subtitle class="text-cuenta posicion">Mi Banco</ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
+  </div>
+  </div>
+  <div class="posicion-enlace">
+    <p>Para información de créditos mira en el siguiente enlace.</p>
+        <ion-list>
+          <ion-item detail={true} [routerLink]="['/tercero']">
+            <ion-label><b>Más detalles</b></ion-label>
+          </ion-item>
+        </ion-list>
+  </div>       
+</ion-content>
